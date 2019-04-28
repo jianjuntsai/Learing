@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import seaborn as sns
+%matplotlib inline
+sns.set()
+
+%config InlineBackend.figure_format = 'retina' #此命令将会提升图片分辨率
+mpl.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体
+mpl.rcParams['axes.unicode_minus'] = False  # 解决保存图像是负号'-'显示为方块的问题
