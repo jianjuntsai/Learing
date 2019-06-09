@@ -1,5 +1,45 @@
 # Anaconda
 
+[参考网站](https://www.zhihu.com/question/58033789?sort=created)
+
+查看已经安装的内容
+
+```
+conda list
+```
+
+升级
+
+```
+conda upgrade  --all
+```
+
+安装包
+
+```
+conda install package_name
+```
+
+卸载包
+
+```
+conda remove package_nammes
+```
+
+更新包
+
+```
+coonda update package_name
+```
+
+创建环境
+
+```
+conda create -n env_name package_names
+```
+
+
+
 ## Managing Environments
 
 ### 1.Create a new environment and install a package in it
