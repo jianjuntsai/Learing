@@ -1,4 +1,16 @@
 # Importing Data in Python
+
+## Using glob
+
+```
+In [9]: from glob import glob
+In [10]: filenames = glob('sales*.csv')
+In [11]: dataframes = [pd.read_csv(f) for f in filenames]
+In [12]: dataframes = pd.concat([pd.read_csv(f) for f in filenames])
+```
+
+
+
 ## Working with relational databases in Python
 
 ### Workflow of SQL querying
